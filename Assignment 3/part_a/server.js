@@ -16,11 +16,11 @@ app.set("views", __dirname + "/views");
 
 
 //routes
-app.use("/" , indexRoutes)
+app.use("/", indexRoutes)
 
 
 //listen to PORT
-const PORT = 5000 || process.env.PORT;
+const PORT = 3000 || process.env.PORT;
 app.listen(PORT, () => {
   console.log(`server started at ${PORT}`);
 });
